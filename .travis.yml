@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: S/FTNFCBBSCMHnnZHADdeIiHuFA9i3P4YZPqrY4KpIqKsVQwp53kduiussH9Dzh9xmrWSjS+tpC7kRB9UZ8ChBODpWttAhMZXVF9/Sp9ljeXPCSeMKcqwiDYYYwskzFhEQof/bsZ9Bpb8rl8jWbV52zFmeNLknBl0toLvYQNOi7Xm0cVM9PBQae9yCXcNOgD19V1YfDok50bN7wimtaa5F5sQC3Ow5uuF9Jq5bFL9XmXJmxU2Cpo/oID4G+hIv9H2NhOLvZnAAPCWdjKOvq3LjekSJWZTh7QoqvqT9mHG8ZMQLXxRvQEWC+wjUQ+jEVwqGs7CpcvEm+Sr3pJh7ten8BuK1h6xjNjH/TmyYaY5VMp7F3vjZXz+ERhon7XpabtZgdCK5/mmQLTlJZdraGblrGM8vK3A6rV8jcMM73nNi2oePidfuYtI51AcM3MI74X8MJWePFhnxxjNLPgwMI+Tq2jFYwpRsQocYa1AJW/vIRAo3QSMBdVx0fng7fnCgubyCWlXcoxJjieTKo/CTRjGJ+e2M8/i8fqkOUbGMWCNCYEjN0ZYUXX47Y7c8iTufi2uBaKLTvr8F+9W36WRhjA42VgoXuccacwpJ/0PokqIFoto5lbEAjmYf/DZVIeGVuyO1J+PnbaFXDTCLwp8KimsNp6eL9nc9ALr5Fu+RlvMVY=
+  app: tranquil-peak-10153
+  on:
+    repo: mperille/blog-api
